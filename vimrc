@@ -13,3 +13,9 @@ set smarttab    " At <Tab> at beginning line inserts spaces set in shiftwidth
 " Displays '-' for trailing space, '>-' for tabs and '_' for non breakable space
 "set listchars=tab:>-,trail:-,nbsp:_
 "set list
+
+let $LOCALFILE=expand("~/.vimrc_local")
+if filereadable($LOCALFILE)
+    source $LOCALFILE
+endif
+

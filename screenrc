@@ -6,3 +6,5 @@ vbell off
 defutf8 on
 caption always
 caption string "%{= wk}%w"
+defscrollback 100000
+term screen-256color
