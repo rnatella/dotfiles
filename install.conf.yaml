@@ -5,7 +5,7 @@
 - clean: ['~']
 
 - link:
-    #~/.bashrc: bashrc
+    ~/.bashrc: bashrc
     ~/.vimrc: vimrc
     ~/.screenrc: screenrc
 
