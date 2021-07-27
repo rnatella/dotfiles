@@ -1,21 +1,21 @@
 #!/bin/bash
 
 # If .bashrc already exists, save and source it
-if [[ -f ~/.bashrc ]] && [[ ! -f ~/.bashrc.orig ]]; then
+if [[ -f ~/.bashrc ]] && [[ ! -L ~/.bashrc ]] && [[ ! -f ~/.bashrc.orig ]]; then
 
     mv ~/.bashrc ~/.bashrc.orig
 fi
 
 
 # If .profile already exists, save and source it
-if [[ -f ~/.profile ]] && [[ ! -f ~/.profile.orig ]]; then
+if [[ -f ~/.profile ]] && [[ ! -L ~/.profile ]] && [[ ! -f ~/.profile.orig ]]; then
 
     mv ~/.profile ~/.profile.orig
 fi
 
 
 # If .bash_profile already exists, save and source it
-if [[ -f ~/.bash_profile ]] && [[ ! -f ~/.bash_profile.orig ]]; then
+if [[ -f ~/.bash_profile ]] && [[ ! -L ~/.bash_profile ]] && [[ ! -f ~/.bash_profile.orig ]]; then
 
     mv ~/.bash_profile ~/.bash_profile.orig
 fi
