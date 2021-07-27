@@ -4,9 +4,12 @@
 
 - clean: ['~']
 
+- shell:
+  - ./bash_setup
+
 - link:
-    ~/.bashrc: bashrc
     ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
     ~/.vimrc: vimrc
     ~/.editorconfig: editorconfig
     ~/.screenrc: screenrc
