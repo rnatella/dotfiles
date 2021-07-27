@@ -1,3 +1,7 @@
+if [ -f ~/.bashrc.orig ]; then
+    source ~/.bashrc.orig
+fi
+
 HISTSIZE=1048576
 HISTFILE="$HOME/.bash_history"
 SAVEHIST=$HISTSIZE
