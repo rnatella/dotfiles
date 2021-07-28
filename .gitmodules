@@ -2,3 +2,12 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+
+[submodule "vim/pack/vendor/start/editorconfig-vim"]
+	path = vim/pack/vendor/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
+	ignore = untracked
+
+[submodule "vim/pack/vendor/start/vim-polyglot"]
+	path = vim/pack/vendor/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot

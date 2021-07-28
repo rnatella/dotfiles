@@ -11,6 +11,9 @@
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.vimrc: vimrc
+    ~/.vim:
+        force: true
+        path: vim
     ~/.editorconfig: editorconfig
     ~/.screenrc: screenrc
     ~/.tmux.conf: tmux.conf
