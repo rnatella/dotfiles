@@ -13,8 +13,11 @@ set fileencoding=utf-8  " The encoding written to file.
 
 " ---- Bonus for proving the setting
 " Displays '-' for trailing space, '>-' for tabs and '_' for non breakable space
-""set listchars=tab:>-,trail:-,nbsp:_
-""set list
+set listchars=tab:>-,trail:-,nbsp:␣
+set list
+
+" ---- Maps non-breaking spaces to normal spaces
+"execute "inoremap \u00A0 <Space>"
 
 " ---- Overridden by vim-polyglot
 ""filetype plugin indent on " enable file type detection
