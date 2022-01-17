@@ -45,6 +45,9 @@ set formatoptions+=j  " Delete comment character when joining commented lines
 
 set autoread          " Automatically read a file when changed outside of Vim
 
+" Remember last position in file
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
 if &history < 1000
   set history=1000
 endif
