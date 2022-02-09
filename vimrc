@@ -13,7 +13,8 @@ set fileencoding=utf-8  " The encoding written to file.
 
 " ---- Bonus for proving the setting
 " Displays '-' for trailing space, '>-' for tabs and '_' for non breakable space
-set listchars=tab:>-,trail:␣,nbsp:␣
+"set listchars=tab:>-,trail:·,nbsp:␣
+set listchars=trail:·,nbsp:␣
 set list
 
 " ---- Maps non-breaking spaces to normal spaces
