@@ -4,3 +4,9 @@
 [include]
     path = ~/.gitconfig_local
 
+[user]
+    name = Roberto Natella
+    email = 2117196+rnatella@users.noreply.github.com
+
+[github]
+    user = rnatella
