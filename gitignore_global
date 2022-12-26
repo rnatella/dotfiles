@@ -16,6 +16,8 @@
 \#*\#
 \.#*
 .ipynb_checkpoints/
+.vscode
+.idea
 
 # Logs and databases #
 ######################

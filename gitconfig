@@ -6,7 +6,13 @@
 
 [user]
     name = Roberto Natella
-    email = 2117196+rnatella@users.noreply.github.com
+    email = roberto.natella@unina.it
 
 [github]
     user = rnatella
+
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
