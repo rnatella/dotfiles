@@ -11,6 +11,8 @@ shopt -s histappend # append to history file
 alias ls='ls --color=auto'
 alias grep='grep --color'
 
+PS1='\[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0m\]\$ '
+
 export EDITOR=vim
 
 if [ -f ~/.bashrc.local ]; then
